@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Madee Certficate Generator</title>
+        <link rel="icon" href="media/logo icon.png" type="image/icon type">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="padding:1em 0;background-color:#089095">
+            <div class="container">
+                    <a class="navbar-brand" href="#"><img style="width:50px" src="media/logoMadee.png" alt=""></a>
+                    <form class="form-inline">
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ------------------ Main Page ------------------- -->
+
+        <section id="hero">
+            <div class="container" id="frt-cnt">
+
+                <div class="heading-part">
+                    <img src="media/logoBig.jpg" alt="" class="logoMadee">
+                    <h1>Madee Certficates Generator</h1>
+                </div>
+
+                <p class="text-help">
+                    Enter up to the names, one per line. A printable page with personalized Madee association certificates will be generated 
+                </p>
+
+                <div class="input-part">
+                    <span id="nbr-prt">0</span>
+                    <div class="inputBox">
+                        <textarea name="" id="" placeholder="Enter the names of participants line by line" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button id="gen-cta">Start Generating...</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- This Section For The Displaying Certficates -->
+        <section id="content"></section>
+        <script src="script.js"></script>
+    </body>
+</html>

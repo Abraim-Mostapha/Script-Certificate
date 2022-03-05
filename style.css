@@ -228,9 +228,9 @@ section#content{
 .certificate h1{
     position: absolute;
     z-index: 200;
-    transform: translateY(280px);
-    margin-left: 350px;
-    font-size: 70px;
+    transform: translateY(275px);
+    margin-left: 360px;
+    font-size: 58px;
     font-family: sans-serif;
 }
 

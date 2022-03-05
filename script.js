@@ -60,7 +60,7 @@ function generateCertificates(username){
     certificate.className = "certificate";
 
     var personeName = document.createElement("h1");
-    personeName.innerHTML = username.toUpperCase();
+    personeName.innerHTML = username;
 
     var image_certificate = document.createElement("img");
     image_certificate.src = srcImage;
